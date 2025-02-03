@@ -40,6 +40,7 @@ const VirtualMachineNavPage: React.FC<VirtualMachineDetailsPageProps> = ({
       <VirtualMachineNavPageTitle
         isLoaded={isLoaded || !isEmpty(loadError)}
         name={name}
+        nonExpandedVM={vm}
         vm={isInstanceTypeVM(vm) ? instanceTypeExpandedSpec : vm}
       />
       <StateHandler error={loadError} loaded={isLoaded} withBullseye>

@@ -41,9 +41,9 @@ export const STATUS_AVG_LATENCY_NANO = 'status.result.avgLatencyNanoSec';
 export const STATUS_MAX_LATENCY_NANO = 'status.result.maxLatencyNanoSec';
 export const STATUS_MEASUREMENT_DURATION = 'status.result.measurementDurationSec';
 export const STATUS_MIN_LATENCY_NANO = 'status.result.minLatencyNanoSec';
-export const STATUS_TARGET_NODE = 'status.result.targetNode';
-export const STATUS_SOURCE_NODE = 'status.result.sourceNode';
 
+export const STATUS_TARGET_NODE = 'spec.param.targetNode';
+export const STATUS_SOURCE_NODE = 'spec.param.sourceNode';
 export const STATUS_SAMPLE_DURATION = 'spec.param.sampleDurationSeconds';
 export const STATUS_NAD_NAMESPACE = 'spec.param.networkAttachmentDefinitionNamespace';
 export const STATUS_NAD_NAME = 'spec.param.networkAttachmentDefinitionName';
